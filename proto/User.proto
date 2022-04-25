@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message User
+{
+    optional uint64 id = 1;
+    optional string nickName = 2;
+}
